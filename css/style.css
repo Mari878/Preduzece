@@ -108,6 +108,12 @@
 .sticky-top.navbar-dark .navbar-brand img {
   max-height: 45px;
 }
+/* .col-lg-6 h5{
+    font-size: 17px;
+    font-weight: 900;
+    color: #310202;
+} */
+
 
 @media (max-width: 991.98px) {
   .sticky-top.navbar-dark {
@@ -128,6 +134,7 @@
   .navbar-dark .navbar-brand img {
     max-height: 70px;
   }
+  
 }
 
 @media (min-width: 992px) {
@@ -149,7 +156,7 @@
 /*** Hero Header ***/
 .hero-header {
   background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
-    url(../img/bg-hero.jpg);
+    url(../img/kafana.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -404,6 +411,14 @@
   border-color: var(--primary);
 }
 
+
+
+.position-relative {
+    height: 500px;
+}
+
+
+
 /*** Footer ***/
 .footer .btn.btn-social {
   margin-right: 5px;
@@ -468,3 +483,5 @@
   padding-right: 0;
   border-right: none;
 }
+
+
